@@ -1,0 +1,30 @@
+
+
+/* Slide Right */
+.slide-right-hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(20%);
+}
+
+.slide-right-show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+/* Slide Left */
+
+.slide-left-hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-20%);
+}
+
+.slide-left-show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s;
+}
